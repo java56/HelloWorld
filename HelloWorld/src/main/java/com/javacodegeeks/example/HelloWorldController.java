@@ -14,4 +14,8 @@ public class HelloWorldController {
 	public String hi() {
 		return "Hi JAVA..56";
 	}
-}
+
+	@GetMapping("good")
+	public String good(){
+		return "Good work, you are practicing as promised..Keep it up.."
+	}
